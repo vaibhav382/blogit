@@ -12,7 +12,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
     "contentstack": "^3.26.2",
-    "contentstack-chat-sdk": "^0.1.0",
+    "contentstack-chat-sdk": "1.0.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.1",

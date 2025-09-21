@@ -5,7 +5,7 @@ import { ChatWidget } from "contentstack-chat-sdk"
 const STACK_API_KEY = import.meta.env.VITE_CONTENTSTACK_API_KEY;
 const DELIVERY_TOKEN = import.meta.env.VITE_CONTENTSTACK_DELIVERY_TOKEN;
 const ENVIRONMENT = import.meta.env.VITE_CONTENTSTACK_ENVIRONMENT;
-const CONTENT_TYPE = 'blog_post'; // As you specified
+const CONTENT_TYPE = 'blog_post';
 
 
 interface BlogPost {
@@ -92,7 +92,7 @@ const App: React.FC = () => {
       </main>
       <ChatWidget
         apiEndpoint="http://127.0.0.1:8000/chat"
-        collectionName="my_project_1"
+        collectionName="agent_3707864b-f735-4ebf-8a07-68a4ba8823cd"
       />
     </div>
   );
